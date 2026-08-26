@@ -493,6 +493,89 @@
     "course": "EEE 317",
     "major": "CSP",
     "questionText": "A unity feedback system has G(s) = K(s+5)/(s+8)(s+10). What is the value of K to yield 10% error in steady state for unit step input? (MCQ)"
+  },
+
+   {
+    "id": "22-309-1",
+    "year": 2022,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "If x(t) = 5 cos 600 &pi;t + 10 cos 1000 &pi;t - 100 cos 6800 &pi;t, what is the fundamental frequency and nyquist rate of x(t)? (MCQ)"
+  },
+
+  {
+    "id": "17-309-pcm",
+    "year": 2017,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "Calculate the bit rate of a single channel PCM systen that uses the standard band limited telephone channel."
+  },
+  {
+    "id": "15-309-pcm",
+    "year": 2022,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "An analog signal having a bandwidth of 4kHz is converted to PCM signal using sampling at a rate of 20% above the Nyquist rate. The samples are quantized into 1024 levels. Determine whether a channel of the capacity of 50 kbps is sufficient for transmitting the PCM signal or not."
+  },
+
+  {
+    "id": "21-309-1",
+    "year": 2021,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "A 32-channel TDMA based digital communication system uses A-law compression with 16 bit PCM. Sampling rate of the system is 8kHz abd each frame uses additional 2 bits for the purpose of error control and synchronization. What is the bit rate of the system? (MCQ)"
+  },
+
+  {
+    "id": "25-309-pcm",
+    "year": 2025,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "A TDM-PCM system multiplexes 10 music signals, each band-limited to 300-500 Hz. The signals are sampled at a rate of 60% higher than the nyquist rate and encoded using an 8-bit PCM encoder. Each TDM frame includes 2 bits for synchronization and framing. Determine the number of quantization levels, frame length, and data rate of the multiplexed signal."
+  },
+
+  {
+    "id": "22-309-22",
+    "year": 2022,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "Im a PCM system, and 8 kHz sinusoidal signal is uniformly sampled with a rate twice the nyquist frequency. If the bit rate is 160 kbps. Determine the SNR of the system in dB. (MCQ)"
+  },
+
+  {
+    "id": "19-309-22",
+    "year": 2019,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "In a pcm system, an 8kHz sine signal is uniformly sampled with a rate of 75% higher than the nyquist frequency. The quantizer uses a rounding operation and the maximum quantization error is 4% of the peak amplitude of the signal. Determine the bit rate and SNR of the system in dB."
+  },
+  {
+    "id": "21-309-channel",
+    "year": 2021,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "The output power from an audio amplifier is 10@ when the signal frequency is 1kHz. At a signal frequency of 10 kHz, the output power is 1 W. Calculate the dB change in power. (MCQ)"
+  },
+  {
+    "id": "16-309-ch",
+    "year": 2022,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "A voice grade channel of telephone network has a bandwidth of 3.4kHz. Calculate the information capacity of the channel for a signal to noise ratio of 30dB."
+  },
+  {
+    "id": "16-309-am",
+    "year": 2016,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "In an amplitude modulation carrier power is 1000 W and sideband power is 180 W. Find the modulation index."
+  },
+  {
+    "id": "22-309-1",
+    "year": 2022,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "If x(t) = 5 cos 600 &pi;t + 10 cos 1000 &pi;t - 100 cos 6800 &pi;t, what is the fundamental frequency and nyquist rate of x(t)? (MCQ)"
   }
 ]
 
