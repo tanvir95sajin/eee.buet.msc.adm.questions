@@ -9,7 +9,7 @@
   "EEE 211": { "name": "", "books": [], "topics": [] },
   "EEE 303": { "name": "", "books": [], "topics": [] },
   "EEE 305": { "name": "", "books": [], "topics": [] },
-  "EEE 307": { "name": "", "books": [], "topics": [] },
+  "EEE 307": { "name": "Electrical Properties of Materials", "books": ["Principles of Electronic Materials and Devices by S. O. Kasap", "Semiconductor Physics and Devices: Basic Principles by Donald A. Neaman"], "topics": [] },
   "EEE 309": { "name": "", "books": [], "topics": [] },
   "EEE 311": { "name": "", "books": [], "topics": [] },
   "EEE 313": { "name": "Solid State Devices", "books": ["Semiconductor Physics and Devices: Basic Principles by Donald A. Neaman"], "topics": [] },
