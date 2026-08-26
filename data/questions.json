@@ -37,4 +37,4 @@
     "questionText": "Find the average power of a passive linear network, if: \n v(t) = 2 + 10 cos(100t+30<sup>0</sup>) + 5 cos(300t+40<sup>0</sup>) \n i(t) = 20 + 2 cos(100t-30<sup>0</sup>) + 3 cos(300t+60<sup>0</sup>)"
   }
 ]
-]
+
