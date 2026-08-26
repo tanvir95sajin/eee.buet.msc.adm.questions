@@ -305,7 +305,7 @@
     "course": "EEE 415",
     "major": "Electronics",
     "questionText": "Consider a Mealy FSM with two state variables y2 and y1, two inputs a and b, and one output s. The state transition table is given below. \n Draw the state diagram for the Mealy FSM. Determine the sequence of input ab that the FSM is designed to detecet.",
-    "questionImage: "assets/questions/fsm.png"
+    "questionImage": "assets/questions/fsm.png"
   } 
 
 ]
