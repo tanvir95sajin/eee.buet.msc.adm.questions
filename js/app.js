@@ -204,11 +204,10 @@ function renderCard(q) {
 
   const body = document.createElement("div");
   body.className = "q-body";
-  if (q.questionType === "image" && q.questionImage) {
-    body.innerHTML = `<img src="${q.questionImage}" alt="Question ${q.id}" loading="lazy">`;
-  } else {
-    body.innerHTML = q.questionText || "";
-  }
+  let bodyHtml = "";
+  if (q.questionText) bodyHtml += `<div class="q-text">${q.questionText}</div>`;
+  if (q.questionImage) bodyHtml += `<img src="${q.questionImage}" alt="Question ${q.id}" loading="lazy">`;
+  body.innerHTML = bodyHtml;
   card.appendChild(body);
 
   const btn = document.createElement("button");
