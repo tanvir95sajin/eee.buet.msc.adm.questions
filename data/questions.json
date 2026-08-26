@@ -1,4 +1,14 @@
 [
+{
+    "id": "2019-eee101-01",
+    "year": 2019,
+    "course": "EEE 101",
+    "major": "General",
+    "questionType": "text",
+    "questionText": "Draw equivalent circuit for following mesh equations: \n 25I<sub>1</sub> - 5I<sub>2</sub> - 15I<sub>3</sub> = 24 \n 5I<sub>1</sub> - 15I<sub>2</sub> = 0 \n 15I<sub>1</sub> - 20I<sub>3</sub> = -12 \n",
+    "answerImage": "assets/answers/2019-eee209-01.jpg"
+  },
+  
   {
     "id": "2019-eee209-01",
     "year": 2019,
