@@ -51,6 +51,13 @@
     "course": "EEE 105",
     "major": "General",
     "questionText": "A series RLC circuit has v = 300 sin 300t, i = 10 sin(300t+45&deg), and L = 10mH. Calculate the value of C and R."
+  },
+    {
+    "id": "16-105-1",
+    "year": 2016,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "In a series RLC circuit, R=1000 ohm, resonant frequency = 159 kHz, C=10uuF (no mistake). Find the value of L under resonant condition. Also find the value of Q and bandwidth."
   }
 
 ]
