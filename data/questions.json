@@ -35,6 +35,16 @@
     "course": "EEE 105",
     "major": "General",
     "questionText": "Find the average power of a passive linear network, if: \n v(t) = 2 + 10 cos(100t+30<sup>0</sup>) + 5 cos(300t+40<sup>0</sup>) \n i(t) = 20 + 2 cos(100t-30<sup>0</sup>) + 3 cos(300t+60<sup>0</sup>)"
-  }
+  },
+
+  {
+    "id": "18-105-1",
+    "year": 2018,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "If V1(t) = 10 cos(2000t+36.87<sup>0</sup>) and V2(t) = 5 cos(5000t+16.26<sup>0</sup>), find Vo",
+    "questionImage": "assets/questions/18-105.png"
+  },
+  
 ]
 
