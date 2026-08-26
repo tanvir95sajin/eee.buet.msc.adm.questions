@@ -6,7 +6,7 @@
     "major": "General",
     "questionType": "text",
     "questionText": "Draw equivalent circuit for following mesh equations: \n 25I<sub>1</sub> - 5I<sub>2</sub> - 15I<sub>3</sub> = 24 \n 5I<sub>1</sub> - 15I<sub>2</sub> = 0 \n 15I<sub>1</sub> - 20I<sub>3</sub> = -12 \n",
-    "answerImage": "assets/answers/2019-eee209-01.jpg"
+
   },
   
   {
@@ -16,7 +16,26 @@
     "major": "General",
     "questionType": "image",
     "questionImage": "assets/questions/2023-101.png",
-    "answerImage": "assets/answers/2017-eee305-01.jpg"
-  }
+    
+  },
+
+{
+  "id": "2018-eee101-01",
+  "year": 2018,
+  "course": "EEE 101",
+  "major": "General",
+  "questionText": "Find the power delivered by 2A. (Use 50 ohm, instead of the 55 one. - Nilsson)",
+  "questionImage": "assets/questions/18-101",
+
+},
+
+{
+  "id": "24-101-1",
+  "year": 2018,
+  "course": "EEE 101",
+  "major": "General",
+  "questionText": "An automobile battery, when connected to a car radio, provides 12.5 V to the radio. When connected to a set of headlights, it provides 11.7 V to the headlights. Assume the radio can be modeled as a 6.25 ohm resistor and the headlights can be modeled as a 0.65 ohm resistor. What are the Thevenin and Norton equivalents for the battery?"
+  
+}
 
 ]
