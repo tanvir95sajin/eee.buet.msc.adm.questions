@@ -64,7 +64,7 @@
     "year": 2018,
     "course": "EEE 105",
     "major": "General",
-    "questionText": "A series RLC circuit is having R=10 ohm, L=10mH. Find the value of C to cause resonance at 10<sup>6<\sup>Hz frequency. Find Q also."
+    "questionText": "A series RLC circuit is having R=10 ohm, L=10mH. Find the value of C to cause resonance at 10<sup>6</sup>Hz frequency. Find Q also."
   },
       {
     "id": "22-105-1",
