@@ -100,7 +100,7 @@
     "year": 2024,
     "course": "EEE 105",
     "major": "General",
-    "questionText": "Determine what type of filter is shown in the following. Calculate the corner or cutoff frequency. Take R-2kohm, L=2H and C=2uF."
+    "questionText": "Determine what type of filter is shown in the following. Calculate the corner or cutoff frequency. Take R-2kohm, L=2H and C=2uF.",
     "questionImage": "assets/questions/24freq.png"
   }
 
