@@ -259,18 +259,18 @@ code {
 
 .question-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
+  gap: 26px;
 }
 
 .q-card {
   background: var(--paper-card);
   border: 1px solid var(--rule);
   border-radius: var(--radius);
-  padding: 18px 18px 16px;
+  padding: 32px 32px 28px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
 }
 
@@ -283,17 +283,17 @@ code {
 .q-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
 }
 
 .tag {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.8rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   border: 1.5px solid currentColor;
   border-radius: 3px;
-  padding: 2px 8px;
+  padding: 3px 10px;
   display: inline-block;
 }
 
@@ -301,20 +301,20 @@ code {
 .tag-course  { color: var(--stamp-course); transform: rotate(0.5deg); }
 .tag-major   { color: var(--stamp-major);  transform: rotate(-0.5deg); }
 
-.q-body { font-size: 0.96rem; line-height: 1.55; color: var(--ink); white-space: pre-line; display: flex; flex-direction: column; gap: 10px; }
+.q-body { font-size: 1.15rem; line-height: 1.6; color: var(--ink); white-space: pre-line; display: flex; flex-direction: column; gap: 14px; }
 .q-body img { max-width: 100%; border: 1px solid var(--rule); border-radius: 3px; display: block; }
 
 .show-answer-btn {
   align-self: flex-start;
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   background: transparent;
   border: 1.5px dashed var(--ink-soft);
   border-radius: var(--radius);
   color: var(--ink-soft);
-  padding: 7px 14px;
+  padding: 9px 18px;
   cursor: pointer;
   transition: all var(--transition);
 }
