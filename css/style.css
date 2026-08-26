@@ -554,6 +554,45 @@ code {
 }
 
 /* ---------------------------------------------------------
+   Formulas page
+--------------------------------------------------------- */
+.formula-item {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed var(--rule);
+}
+
+.formula-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.formula-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--stamp-course);
+  margin: 0 0 8px;
+}
+
+.formula-expr {
+  overflow-x: auto;
+  padding: 4px 0;
+  color: var(--ink);
+}
+
+.formula-expr .katex { color: inherit; font-size: 1.05em; }
+
+.formula-note {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: 8px 0 0;
+}
+
+/* ---------------------------------------------------------
    Footer
 --------------------------------------------------------- */
 .site-footer {
