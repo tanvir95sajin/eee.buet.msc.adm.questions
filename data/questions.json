@@ -300,7 +300,21 @@
     "major": "Electronics",
     "questionText": "Consider a Mealy FSM with two state variables y2 and y1, two inputs a and b, and one output s. The state transition table is given below. \n Draw the state diagram for the Mealy FSM. Determine the sequence of input ab that the FSM is designed to detect.",
     "questionImage": "assets/questions/fsm.png"
-  } 
+  },
 
+   {
+    "id": "25-arm",
+    "year": 2025,
+    "course": "EEE 415",
+    "major": "Electronics",
+    "questionText": "Write an ARM assembly code to shift the contents of two registers, R0 and R1."
+  }, 
+ {
+    "id": "23-pe",
+    "year": 2023,
+    "course": "EEE 315",
+    "major": "Power",
+    "questionText": "Is there any difference between Thyristor and SCR? Draw the I-V characteristrics of SCR and find out latching current, forward and reverse breakover voltage."
+  }, 
 ]
 
