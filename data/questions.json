@@ -58,6 +58,20 @@
     "course": "EEE 105",
     "major": "General",
     "questionText": "In a series RLC circuit, R=1000 ohm, resonant frequency = 159 kHz, C=10uuF (no mistake). Find the value of L under resonant condition. Also find the value of Q and bandwidth."
+  },
+      {
+    "id": "18-105-2",
+    "year": 2018,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "A series RLC circuit is having R=10 ohm, L=10mH. Find the value of C to cause resonance at 10<sup>6<\sup>Hz frequency. Find Q also."
+  },
+      {
+    "id": "22-105-1",
+    "year": 2022,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "In a parallel RLC circuit, R=8 kohm, L=0.02mH and C=8uF. Calculate BW and Q. (MCQ)"
   }
 
 ]
