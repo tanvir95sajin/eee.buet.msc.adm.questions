@@ -4,6 +4,7 @@
 // ---------------------------------------------------------------
 
 const DIMENSIONS = ["year", "course", "major"];
+const MARKS_KEY = "eee-qbank-marked";
 
 const state = {
   config: null,
@@ -19,8 +20,27 @@ const state = {
     year: new Set(),
     course: new Set(),
     major: new Set()
-  }
+  },
+  marked: loadMarks(),       // set of question ids the user flagged as hard
+  markedOnly: false
 };
+
+function loadMarks() {
+  try {
+    const raw = localStorage.getItem(MARKS_KEY);
+    return new Set(raw ? JSON.parse(raw) : []);
+  } catch {
+    return new Set(); // localStorage unavailable (private browsing, etc.) — marks just won't persist
+  }
+}
+
+function saveMarks() {
+  try {
+    localStorage.setItem(MARKS_KEY, JSON.stringify([...state.marked]));
+  } catch {
+    // ignore — nothing we can do if storage is blocked
+  }
+}
 
 const el = {
   viewTabs: document.querySelectorAll(".view-tab"),
@@ -31,6 +51,7 @@ const el = {
   booksList: document.getElementById("booksList"),
   booksEmpty: document.getElementById("booksEmpty"),
   resultsMeta: document.getElementById("resultsMeta"),
+  markedOnlyToggle: document.getElementById("markedOnlyToggle"),
   questionGrid: document.getElementById("questionGrid"),
   emptyState: document.getElementById("emptyState")
 };
@@ -50,6 +71,14 @@ async function init() {
 
     el.viewTabs.forEach(tab => {
       tab.addEventListener("click", () => setActiveView(tab.dataset.view));
+    });
+
+    el.markedOnlyToggle.addEventListener("click", () => {
+      state.markedOnly = !state.markedOnly;
+      el.markedOnlyToggle.classList.toggle("is-active", state.markedOnly);
+      el.markedOnlyToggle.setAttribute("aria-pressed", String(state.markedOnly));
+      el.markedOnlyToggle.textContent = state.markedOnly ? "★ Marked only" : "☆ Marked only";
+      renderResults();
     });
 
     renderAll();
@@ -192,6 +221,7 @@ function filteredQuestions() {
       const secondarySet = state.secondary[dim];
       if (secondarySet.size > 0 && !secondarySet.has(String(q[dim]))) return false;
     }
+    if (state.markedOnly && !state.marked.has(q.id)) return false;
     return true;
   });
 }
@@ -208,6 +238,25 @@ function renderResults() {
 function renderCard(q) {
   const card = document.createElement("article");
   card.className = "q-card";
+
+  const isMarked = state.marked.has(q.id);
+  const markBtn = document.createElement("button");
+  markBtn.type = "button";
+  markBtn.className = "mark-btn" + (isMarked ? " is-marked" : "");
+  markBtn.textContent = isMarked ? "\u2605" : "\u2606"; // ★ / ☆
+  markBtn.setAttribute("aria-pressed", String(isMarked));
+  markBtn.setAttribute("aria-label", isMarked ? "Remove mark" : "Mark as hard — review later");
+  markBtn.addEventListener("click", () => {
+    const nowMarked = !state.marked.has(q.id);
+    if (nowMarked) state.marked.add(q.id); else state.marked.delete(q.id);
+    saveMarks();
+    markBtn.classList.toggle("is-marked", nowMarked);
+    markBtn.textContent = nowMarked ? "\u2605" : "\u2606";
+    markBtn.setAttribute("aria-pressed", String(nowMarked));
+    markBtn.setAttribute("aria-label", nowMarked ? "Remove mark" : "Mark as hard — review later");
+    if (state.markedOnly && !nowMarked) renderResults(); // card no longer belongs in this view
+  });
+  card.appendChild(markBtn);
 
   const tags = document.createElement("div");
   tags.className = "q-tags";
