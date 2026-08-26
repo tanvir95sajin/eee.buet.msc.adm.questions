@@ -1,0 +1,21 @@
+{
+  "EEE 209": {
+    "Two-port networks": [
+      {
+        "label": "Z-parameters (open-circuit)",
+        "formula": "V_1 = Z_{11}I_1 + Z_{12}I_2"
+      },
+      {
+        "label": "Y-parameters (short-circuit)",
+        "formula": "I_1 = Y_{11}V_1 + Y_{12}V_2"
+      }
+    ],
+    "Frequency response": [
+      {
+        "label": "Magnitude of transfer function",
+        "formula": "|H(j\\omega)| = \\left|\\frac{V_{out}(j\\omega)}{V_{in}(j\\omega)}\\right|",
+        "note": "Evaluate at s = j\u03c9 for sinusoidal steady state."
+      }
+    ]
+  }
+}
