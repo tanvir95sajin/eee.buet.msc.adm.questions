@@ -316,5 +316,74 @@
     "major": "Power",
     "questionText": "Is there any difference between Thyristor and SCR? Draw the I-V characteristrics of SCR and find out latching current, forward and reverse breakover voltage."
   }, 
+
+  {
+    "id": "25-pe",
+    "year": 2025,
+    "course": "EEE 315",
+    "major": "Power",
+    "questionText": "TRIAC in series with 10ohm resistance. Input 10V peak sine wave. Gate pulses at 0.25π, 0.5π, 0.75π, π, 1.25π, 1.75π. Find i<sub>L</sub> and its rms value."
+  }, 
+  {
+    "id": "24-pe",
+    "year": 2024,
+    "course": "EEE 315",
+    "major": "Power",
+    "questionText": "A load, R is in series with a thyristor and sinusoidal AC voltafe. If the positive gate pulses are at 0, 3π/4 and 5π/4, and negative gate pulse is at between 3π/4 and 5π/4, draw the output voltage and current waveforms. Also, if the thyristor is replaced by a GTO in the same circuit, what will be the new waveforms in this case? (There was a circuit, couldn't find in any book)"
+  },
+    {
+    "id": "16-203-1",
+    "year": 2016,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "A 2300/230 V, 200kVA transformer has a primary resistance of 0.4ohm in HV side and secondary resistance of 3.5ohm in LV side. Determine: \n a. Low and High Voltage side current \n b. Equivalent resistance referred to hv side"
+  },
+   {
+    "id": "21-203-1",
+    "year": 2021,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "For a single-phase no load xmer, which one of the following losses will be the minimum? - Cu Losses (MCQ)"
+  },
+   {
+    "id": "15-203-1",
+    "year": 2015,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "A 10kVA, 11/0.4 kV, D-Y distribution transformer has a resistance of 114ohm and reactance of 800ohm per phase referred tp the HT side. Find the voltage regulation at 95% load with 0.85 pf lagging."
+  },
+   {
+    "id": "23-203-2",
+    "year": 2023,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "A 1000VA, 230/115 V transformer has been tested to determine its equivalent circuit. The results of the open circuit tests are: Voc=230V, Ioc=0.45A and Poc=30W. All data give were taken from the primary side of the transformer. Determine Rc and Xm."
+  },
+
+   {
+    "id": "18-203-1",
+    "year": 2018,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "A 100kVa, single phase transformer has an iron loss of 500@ and a copper loss of 200@ at full load current. Calculate the efficiency at 25% load and 0.8 pf lagging."
+  },
+     {
+    "id": "22-203-3",
+    "year": 2022,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "A 3-phase xmer bank is to handle 600kVA and have a 34.5/13.8 kV voltage ration. Find the rating of each individual transformer in the bank (HV, LV, Turns Ration and S) if the xmer is connected to D-Y. (MCQ)"
+  },
+     {
+    "id": "16-203-1",
+    "year": 2016,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "A 2300/230 V, 200kVA transformer has a primary resistance of 0.4ohm in HV side and secondary resistance of 3.5ohm in LV side. Determine: \n a. Low and High Voltage side current \n b. Equivalent resistance referred to hv side"
+  }
+    
+    
+    
+    
 ]
 
