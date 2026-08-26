@@ -19,12 +19,12 @@
     "answerImage": "assets/answers/2019-eee209-01.jpg"
   },
   {
-    "id": "2017-eee305-01",
-    "year": 2017,
-    "course": "EEE 305",
-    "major": "Electronics",
+    "id": "2023-101",
+    "year": 2023,
+    "course": "EEE 101",
+    "major": "General",
     "questionType": "image",
-    "questionImage": "assets/questions/2017-eee305-01.jpg",
+    "questionImage": "assets/questions/2023-101.png",
     "answerImage": "assets/answers/2017-eee305-01.jpg"
   },
   {
