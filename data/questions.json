@@ -109,7 +109,23 @@
     "course": "EEE 201",
     "major": "Electronics",
     "questionText": "The diode has following I-V Characteristics and it's reverse saturation current is 10 nA. Find Id.",
-    "questionImage": "assets/questions/18-diode-1.jpg"
+    "questionImage": "assets/questions/18-Diode-1.jpg"
+  },
+  {
+    "id": "23-201-new",
+    "year": 2023,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "From the book of Donald A. Neamen."
+    "questionImage": "assets/questions/23-diode-2.jpg"
+  },
+    {
+    "id": "23-201-new",
+    "year": 2023,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "From the book of Donald A. Neamen."
+    "questionImage": "assets/questions/23-diode-2.jpg"
   }
 
 
