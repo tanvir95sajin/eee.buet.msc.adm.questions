@@ -142,6 +142,82 @@
     "major": "Electronics",
     "questionText": "Find the output voltage of the following circuit.",
     "questionImage": "assets/questions/16-diode-vm.jpg"
+  },
+
+   {
+    "id": "23-313",
+    "year": 2023,
+    "course": "EEE 313",
+    "major": "Electronics",
+    "questionText": "From the following energy-band diagram, comment on the type of device it is.",
+    "questionImage": "assets/questions/23-ssd.jpg"
+  },
+
+     {
+    "id": "24-313",
+    "year": 2024,
+    "course": "EEE 313",
+    "major": "Electronics",
+    "questionText": "Draw the energy band diagram of a PN junction diode under the following conditions: \n a. 0V (no bias), b. +3V (Forward Bias), c. -3V (Reverse bias)"
+  },
+     {
+    "id": "19-307",
+    "year": 2019,
+    "course": "EEE 307",
+    "major": "Electronics",
+    "questionText": "Potassium has a work function of 2.3ev. What is the longest wavelength of light that will release an electron from a potassium surface."
+  },
+     {
+    "id": "24-307",
+    "year": 2024,
+    "course": "EEE 307",
+    "major": "Electronics",
+    "questionText": "An electron and a photon have identical energy. Determine the energy at which the wavelength of the photon is ten times the wavelength of the electron. Assume that the speed of light, charge of electron, and the mass of electron are known."
+  },
+     {
+    "id": "19-313",
+    "year": 2019,
+    "course": "EEE 313",
+    "major": "Electronics",
+    "questionText": "Consider germenium with an acceptor concentration of N<sub>a</sub> = 10<sup>15</sup> cm<sup>-3</sup> and a donor concentration of N<sub>d</sub> = 0. Consider the temperatures of T=200, 400 and 600K. Calculate the position of the Fermi energy with respect to the intrinsic Fermi level at these temperatures."
+  },
+  
+     {
+    "id": "25-313",
+    "year": 2025,
+    "course": "EEE 313",
+    "major": "Electronics",
+    "questionText": "Consider a sample of silicon at T = 300 K. Assume that the electron concentration varies linearly with distance, as shown in the Figure. The diffusion current density is found to be Jn = 0.19 A/cm2. If the electron diffusion coefficient is Dn = 25 cm2/s, determine the electron concentration at x = 0.",
+    "questionImage": "assets/questions/25-313.png"
+  },
+  {
+    "id": "25-313-2",
+    "year": 2025,
+    "course": "EEE 313",
+    "major": "Electronics",
+    "questionText": "A 50V voltage generator at 20MHz is connected to the plates of an air dielectric parallel-plate capacitor with a plate area of 2.8 cm<sup>2</sup> and a separation distance of 0.2 mm. Find the maximum value of displacement current density and displacement current."
+  },
+  {
+    "id": "25-313",
+    "year": 2025,
+    "course": "EEE 313",
+    "major": "Electronics",
+    "questionText": "For a particle of mass m = 9.11 x 10<sup>-31</sup> kg is confined in a one-dimensional infinite potential well of width L=5nm, determine the eigenenergies for the first three quantum states. Also briefly interpret the physical meaning of |Ψ<sub>n</sub>(x)|<sup>2</sup> for these states."
+  },
+  
+  {
+    "id": "21-313-33",
+    "year": 2021,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "A 50V voltage generator at 20MHz is connected to the plates of an air dielectric parallel-plate capacitor with a plate area of 2.8 cm<sup>2</sup> and a separation distance of 0.2 mm. Find the maximum value of displacement current density and displacement current."
+  },
+  {
+    "id": "21-313-33",
+    "year": 2021,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "What is the efficiency of a center-tapped full-wave rectifier? (MCQ)"
   }
 
 
