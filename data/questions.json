@@ -198,7 +198,7 @@
     "questionText": "A 50V voltage generator at 20MHz is connected to the plates of an air dielectric parallel-plate capacitor with a plate area of 2.8 cm<sup>2</sup> and a separation distance of 0.2 mm. Find the maximum value of displacement current density and displacement current."
   },
   {
-    "id": "25-313",
+    "id": "25-313-9",
     "year": 2025,
     "course": "EEE 313",
     "major": "Electronics",
@@ -208,12 +208,12 @@
   {
     "id": "21-313-33",
     "year": 2021,
-    "course": "EEE 201",
+    "course": "EEE 313",
     "major": "Electronics",
     "questionText": "A 50V voltage generator at 20MHz is connected to the plates of an air dielectric parallel-plate capacitor with a plate area of 2.8 cm<sup>2</sup> and a separation distance of 0.2 mm. Find the maximum value of displacement current density and displacement current."
   },
   {
-    "id": "21-313-33",
+    "id": "21-313-3223",
     "year": 2021,
     "course": "EEE 201",
     "major": "Electronics",
@@ -245,15 +245,9 @@
     "year": 2022,
     "course": "EEE 303",
     "major": "Electronics",
-    "questionText": "A pulse is applied to each inout of an exclusive-OR gate. One pulse goes HIGH at t=0 and goes back LOW at t=1ms. The other pulse goes HIGH at t=0.8ms and goes back LOW at t=3ms. Draw the output pulse. (It was an MCQ with options)"
+    "questionText": "A pulse is applied to each input of an exclusive-OR gate. One pulse goes HIGH at t=0 and goes back LOW at t=1ms. The other pulse goes HIGH at t=0.8ms and goes back LOW at t=3ms. Draw the output pulse. (It was an MCQ with options)"
   },
-  {
-    "id": "24-303-323",
-    "year": 2024,
-    "course": "EEE 303",
-    "major": "Electronics",
-    "questionText": "Given a Boolean function defined by the expression u'v'+(uv)'+uvw, where u, v, 2 are binary variables, you are required to implement this function using a look up table."
-  }, 
+
  {
     "id": "19-303-33s",
     "year": 2019,
@@ -304,7 +298,7 @@
     "year": 2025,
     "course": "EEE 415",
     "major": "Electronics",
-    "questionText": "Consider a Mealy FSM with two state variables y2 and y1, two inputs a and b, and one output s. The state transition table is given below. \n Draw the state diagram for the Mealy FSM. Determine the sequence of input ab that the FSM is designed to detecet.",
+    "questionText": "Consider a Mealy FSM with two state variables y2 and y1, two inputs a and b, and one output s. The state transition table is given below. \n Draw the state diagram for the Mealy FSM. Determine the sequence of input ab that the FSM is designed to detect.",
     "questionImage": "assets/questions/fsm.png"
   } 
 
