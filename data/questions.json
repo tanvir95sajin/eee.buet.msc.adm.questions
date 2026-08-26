@@ -374,16 +374,125 @@
     "major": "Power",
     "questionText": "A 3-phase xmer bank is to handle 600kVA and have a 34.5/13.8 kV voltage ration. Find the rating of each individual transformer in the bank (HV, LV, Turns Ration and S) if the xmer is connected to D-Y. (MCQ)"
   },
+ 
+
+   {
+    "id": "18-205-1",
+    "year": 2018,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "The hysteresis and eddy current losses in a dc machine running at 1000 rpm are 250 W and 100 W respectively. If the flux remains constant, at what speed will be total iron losses be halved?"
+  },
+  {
+    "id": "18-205-1",
+    "year": 2018,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "The hysteresis and eddy current losses in a dc machine running at 1000 rpm are 250 W and 100 W respectively. If the flux remains constant, at what speed will be total iron losses be halved?"
+  },
+  {
+    "id": "19-205-22",
+    "year": 2019,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "A 200V dc shunt machine has an armature resistance of 0.5ohm and field resistance of 200ohm. The machine is running at 1000 rpm as a motor is drawing 31 A from the supply. Calculate the speed at which the machine must be driven by a prime mover to make this run as a generator and deliver the same line current."
+  },
      {
-    "id": "16-203-1",
+    "id": "16-205-22",
     "year": 2016,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "A dc shunt motor is connected to 240V supply. It is running at a speed of 1500 rpm having 0.68 armature resistance and 40A armature current. Friction and windage loss is 600 W. Find the shaft torque in SI unit."
+  },  
+     {
+    "id": "21-203-22",
+    "year": 2021,
     "course": "EEE 203",
     "major": "Power",
-    "questionText": "A 2300/230 V, 200kVA transformer has a primary resistance of 0.4ohm in HV side and secondary resistance of 3.5ohm in LV side. Determine: \n a. Low and High Voltage side current \n b. Equivalent resistance referred to hv side"
+    "questionText": "A two-pole, 50 Hz induction motor rotates at a speed of 2950 rpm. What will be the slip of the motor if the torque is doubled. - 3.33% (MCQ)"
+  },
+     {
+    "id": "15-203-12",
+    "year": 2015,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "A 4-pole, 50 Hz, 3-phase induction motor has rotor resistance per phase of 0.03ohm and reactance per phase of 0.12ohm. Find the amount of external resistance per phase required to be inserted to obtain 75% maximum torque at start."
+  },
+     {
+    "id": "23-205-alt",
+    "year": 2023,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "A 13.2kV, 25MVA, 0.8 pf lagging, Y-connected synchronous generator has a synchronous reactance of 2.5 ohm and an armature resistance of 0.2 ohm. What is the internal generated voltage of this machine at rated conditions?"
+  },
+     {
+    "id": "24-205-alt",
+    "year": 2024,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "A 3-phase 25 MVA, 13.8kV, 50Hz, Delta connected synchronous generator supplies the rated load at 0.8 pf lagging. Xa is 0.5 ohm, Ra is negligible. Find voltage regulation."
+  },
+
+     {
+    "id": "17-205-alt",
+    "year": 2017,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "A 600kVA, delta connected has line voltage of 220 V. If it is reconnected in star, calculate the new kVA rating, voltage and current rating of the alternator."
+  },
+     {
+    "id": "18-205-alt1",
+    "year": 2018,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "A 3-phase alternator has generated emf per phase of 230 V with 10 per cent third harmonic and 6 percent fifth harmonic content. Calculate the rms line voltage for \n a. star connection \n b. delta connection \n Find also the circulating current in delta connection if the reactance per phase of the machine at 50 Hz is 10 ohm."
+  },
+     {
+    "id": "21-205-alt",
+    "year": 2021,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "An alternator is operating in parallel with another synchronous generator of same size, supplying total load of a system. The governor set points of both generators are equally decreased. The total load is kept unchanged. What will happen to the system frequency? - Decrease (MCQ)."
+  },
+
+     {
+    "id": "16-205-altt",
+    "year": 2016,
+    "course": "EEE 205",
+    "major": "Power",
+    "questionText": "How a synchronous machine of 400V, 60 Hz can be run at 50 Hz?"
+  },
+
+     {
+    "id": "15-317-1",
+    "year": 2015,
+    "course": "EEE 317",
+    "major": "CSP",
+    "questionText": "The transfer function of a system T(s) = 25/(s<sup>2</sup>+2s+25). Find the oscillation frequency and damping ratio."
+  },
+
+  {
+    "id": "23-317-1",
+    "year": 2023,
+    "course": "EEE 317",
+    "major": "CSP",
+    "questionText": "The transfer function of a system T(s) = 1/(0.25s<sup>2</sup>+s+1). Find the oscillation frequency and damping ratio. Also determine the unit response of the system."
+  },
+
+  {
+    "id": "21-317-1",
+    "year": 2021,
+    "course": "EEE 317",
+    "major": "CSP",
+    "questionText": "The impulse response of an LTI system is h(t) = e<sup>-t</sup>.u(t). Find the output y(t) if the input is x(t) = u(t). (MCQ)"
+  },
+
+  {
+    "id": "22-317-1",
+    "year": 2022,
+    "course": "EEE 317",
+    "major": "CSP",
+    "questionText": "A unity feedback system has G(s) = K(s+5)/(s+8)(s+10). What is the value of K to yield 10% error in steady state for unit step input? (MCQ)"
   }
-    
-    
-    
-    
 ]
 
