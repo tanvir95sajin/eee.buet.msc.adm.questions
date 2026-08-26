@@ -102,6 +102,14 @@
     "major": "General",
     "questionText": "Determine what type of filter is shown in the following. Calculate the corner or cutoff frequency. Take R-2kohm, L=2H and C=2uF.",
     "questionImage": "assets/questions/24-freq.png"
+  },
+  {
+    "id": "18-201-new",
+    "year": 2018,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "The diode has following I-V Characteristics and it's reverse saturation current is 10 nA. Find Id.",
+    "questionImage": "assets/questions/18-diode-1.jpg"
   }
 
 
