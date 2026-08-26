@@ -38,20 +38,36 @@ const el = {
 init();
 
 async function init() {
-  const [config, courses, questions] = await Promise.all([
-    fetchJSON("data/config.json"),
-    fetchJSON("data/courses.json"),
-    fetchJSON("data/questions.json")
-  ]);
-  state.config = config;
-  state.courses = courses;
-  state.questions = questions;
+  try {
+    const [config, courses, questions] = await Promise.all([
+      fetchJSON("data/config.json"),
+      fetchJSON("data/courses.json"),
+      fetchJSON("data/questions.json")
+    ]);
+    state.config = config;
+    state.courses = courses;
+    state.questions = questions;
 
-  el.viewTabs.forEach(tab => {
-    tab.addEventListener("click", () => setActiveView(tab.dataset.view));
-  });
+    el.viewTabs.forEach(tab => {
+      tab.addEventListener("click", () => setActiveView(tab.dataset.view));
+    });
 
-  renderAll();
+    renderAll();
+  } catch (err) {
+    showLoadError(err);
+  }
+}
+
+function showLoadError(err) {
+  const main = document.querySelector("main");
+  const box = document.createElement("div");
+  box.className = "load-error";
+  box.innerHTML = `<strong>Couldn't load the question data.</strong>
+    <p>${err.message}</p>
+    <p>Most often this means one of the files in <code>data/</code> isn't valid JSON —
+    a trailing comma after the last field in an object is the usual culprit.
+    Paste the file's contents into a JSON validator to find the exact spot.</p>`;
+  main.prepend(box);
 }
 
 async function fetchJSON(path) {
