@@ -207,7 +207,7 @@ function renderCard(q) {
   if (q.questionType === "image" && q.questionImage) {
     body.innerHTML = `<img src="${q.questionImage}" alt="Question ${q.id}" loading="lazy">`;
   } else {
-    body.textContent = q.questionText || "";
+    body.innerHTML = q.questionText || "";
   }
   card.appendChild(body);
 
