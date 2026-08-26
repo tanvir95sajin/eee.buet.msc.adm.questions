@@ -126,6 +126,22 @@
     "major": "Electronics",
     "questionText": "Calculate the output voltage of the following circuit if V<sub>i</sub> = -6V.",
     "questionImage": "assets/questions/17-diode-z.jpg"
+  },
+    {
+    "id": "19-201-5",
+    "year": 2019,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "Draw electron concentration vs. temperature graph for Si."
+  },
+  
+    {
+    "id": "16-201-5",
+    "year": 2016,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "Find the output voltage of the following circuit.",
+    "questionImage": "assets/questions/16-diode-vm.jpg"
   }
 
 
