@@ -50,7 +50,7 @@
     "year": 2017,
     "course": "EEE 105",
     "major": "General",
-    "questionText": "A series RLC circuit has v = 300 sint, i = 10 sin(300t+45&deg), and L = 10mH. Calculate the value of C and R."
+    "questionText": "A series RLC circuit has v = 300 sin 300t, i = 10 sin(300t+45&deg), and L = 10mH. Calculate the value of C and R."
   }
 
 ]
