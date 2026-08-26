@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
 <header class="site-header">
   <div class="header-inner">
     <nav class="site-nav">
@@ -27,40 +26,36 @@
   The course details and remaining questions will be added soon.</p>
   </div>
 </header>
-
 <main>
   <nav class="view-tabs" role="tablist" aria-label="Browse by">
     <button class="view-tab is-active" data-view="year" role="tab" aria-selected="true">Yearwise</button>
     <button class="view-tab" data-view="course" role="tab" aria-selected="false">Coursewise</button>
     <button class="view-tab" data-view="major" role="tab" aria-selected="false">Majorwise</button>
   </nav>
-
   <section class="value-rail" aria-label="Select a value">
     <div id="valueChips" class="chip-row"></div>
   </section>
-
   <section id="secondaryFilters" class="secondary-filters" hidden>
     <span class="secondary-label">Narrow further</span>
     <div id="secondaryChipRow" class="chip-row chip-row--secondary"></div>
   </section>
-
   <section id="booksPanel" class="books-panel" hidden>
     <h2 class="books-title">Reference Shelf</h2>
     <ul id="booksList" class="books-list"></ul>
     <p id="booksEmpty" class="books-empty" hidden>No books listed for this course yet.</p>
   </section>
-
   <section class="results-area">
-    <p id="resultsMeta" class="results-meta"></p>
+    <div class="results-bar">
+      <p id="resultsMeta" class="results-meta"></p>
+      <button id="markedOnlyToggle" type="button" class="marked-toggle" aria-pressed="false">☆ Marked only</button>
+    </div>
     <div id="questionGrid" class="question-grid"></div>
     <p id="emptyState" class="empty-state" hidden>No questions filed here yet. Select a different tag.</p>
   </section>
 </main>
-
 <footer class="site-footer">
   <p>Compiled manually from past admission tests, for study purposes only.</p>
 </footer>
-
 <script src="js/app.js"></script>
 </body>
 </html>
