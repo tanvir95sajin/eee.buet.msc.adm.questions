@@ -27,5 +27,14 @@
     "course": "EEE 101",
     "major": "General",
     "questionText": "An automobile battery, when connected to a car radio, provides 12.5 V to the radio. When connected to a set of headlights, it provides 11.7 V to the headlights. Assume the radio can be modeled as a 6.25 ohm resistor and the headlights can be modeled as a 0.65 ohm resistor. What are the Thevenin and Norton equivalents for the battery?"
+  },
+
+  {
+    "id": "23-105-1",
+    "year": 2023,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "Find the average power of a passive linear network, if: \n v(t) = 2 + 10 cos(100t+30<sup>0</sup>) + 5 cos(300t+40<sup>0</sup>) \n i(t) = 20 + 2 cos(100t-30<sup>0</sup>) + 3 cos(300t+60<sup>0</sup>)"
   }
+]
 ]
