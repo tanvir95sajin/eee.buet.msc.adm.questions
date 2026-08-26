@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2019-eee209-01",
+    "year": 2019,
+    "course": "EEE 209",
+    "major": "Power",
+    "questionType": "text",
+    "questionText": "Sample text question. Replace this with a real question, or delete this entry once you start adding your own. See README.md for the field guide.",
+    "answerImage": "assets/answers/2019-eee209-01.jpg"
+  },
+  {
+    "id": "2017-eee305-01",
+    "year": 2017,
+    "course": "EEE 305",
+    "major": "Electronics",
+    "questionType": "image",
+    "questionImage": "assets/questions/2017-eee305-01.jpg",
+    "answerImage": "assets/answers/2017-eee305-01.jpg"
+  },
+  {
+    "id": "2022-eee211-01",
+    "year": 2022,
+    "course": "EEE 211",
+    "major": "CSP",
+    "questionType": "text",
+    "questionText": "Sample text question #2. Delete once real data is in place.",
+    "answerImage": "assets/answers/2022-eee211-01.jpg"
+  },
+  {
+    "id": "2015-eee101-01",
+    "year": 2015,
+    "course": "EEE 101",
+    "major": "General",
+    "questionType": "image",
+    "questionImage": "assets/questions/2015-eee101-01.jpg",
+    "answerImage": "assets/answers/2015-eee101-01.jpg"
+  }
+]
