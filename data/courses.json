@@ -1,8 +1,8 @@
 {
   "EEE 101": { "name": "Electrical Circuits I", "books": ["Fundamentals of Electric Circuits (5th Edition)- Charles K. Alexander, Matthew N. O. Sadiku", "Electric Circuits- James William Nilsson", "Introductory Circuit Analysis-(8th Edition)- Robert L Boylestad"], "topics": ["Equivalent Resistances", "Superposition", "Nodal and Mesh Analysis", "Thevenin & Norton", "Maximum Power Transfer"] },
   "EEE 105": { "name": "Electrical Circuits II", "books": ["Same as EEE 101", "Transient Analysis of Electric Power Circuits by the Classical Method in the Examples, A.A.ZELENKOV"], "topics": ["Same as EEE 101", "RLC Circuit", "Resonance", "3-phase Analysis", "Transient Analysis", "Frequency Responce"] },
-  "EEE 201": { "name": "Electronic Circuit I", "books": [], "topics": [] },
-  "EEE 203": { "name": "", "books": ["Microelectronic Circuits by A. S. Sedra and K. C. Smith, Oxford University Press (6th edition)", "Electronic Devices and Circuit Theory by R. L. Boylestad and L. Nashelsky", "Microelectronic Circuit Analysis and Design by Donald A. Neamen"], "topics": ["Diode", "MOSFET", "BJT"] },
+  "EEE 201": { "name": "Electronic Circuit I", "books": ["Microelectronic Circuits by A. S. Sedra and K. C. Smith, Oxford University Press (6th edition)", "Electronic Devices and Circuit Theory by R. L. Boylestad and L. Nashelsky", "Microelectronic Circuit Analysis and Design by Donald A. Neamen"], "topics": ["Diode", "MOSFET", "BJT"] },
+  "EEE 203": { "name": "", "books": [], "topics": [] },
   "EEE 205": { "name": "", "books": [], "topics": [] },
   "EEE 207": { "name": "Electronic Circuits II", "books": [], "topics": [] },
   "EEE 209": { "name": "", "books": [], "topics": [] },
