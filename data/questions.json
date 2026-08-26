@@ -85,8 +85,15 @@
     "year": 2019,
     "course": "EEE 105",
     "major": "General",
-    "questionText": "These Values: LHS(16<0&deg, 4ohm, j5ohm) and RHS(4ohm, -j1ohm and j2ohm)"
+    "questionText": "These Values: LHS(16<0&deg, 4ohm, j5ohm) and RHS(4ohm, -j1ohm and j2ohm). Determine the impedance seen by the source.",
     "questionImage": "assets/questions/19-105.png"
+  },
+  {
+    "id": "23-105-new",
+    "year": 2023,
+    "course": "EEE 105",
+    "major": "General",
+    "questionImage": "assets/questions/23-105-3.png"
   }
 
 ]
