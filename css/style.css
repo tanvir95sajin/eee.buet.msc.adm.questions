@@ -343,6 +343,20 @@ code {
   padding: 30px 0;
 }
 
+.load-error {
+  margin-top: 24px;
+  background: var(--paper-card);
+  border: 1px solid var(--stamp-year);
+  border-left: 4px solid var(--stamp-year);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  color: var(--ink);
+}
+
+.load-error strong { color: var(--stamp-year); }
+.load-error p { margin: 8px 0 0; font-size: 0.9rem; color: var(--ink-soft); line-height: 1.5; }
+.load-error code { font-size: 0.85em; }
+
 /* ---------------------------------------------------------
    Courses page
 --------------------------------------------------------- */
