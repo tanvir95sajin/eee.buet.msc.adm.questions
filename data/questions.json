@@ -45,6 +45,13 @@
     "questionText": "If V1(t) = 10 cos(2000t+36.87<sup>0</sup>) and V2(t) = 5 cos(5000t+16.26<sup>0</sup>), find Vo",
     "questionImage": "assets/questions/18-105.png"
   },
-  
+  {
+    "id": "17-105-1",
+    "year": 2017,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "A series RLC circuit has v = 300 sint, i = 10 sin(300t+45&deg), and L = 10mH. Calculate the value of C and R."
+  }
+
 ]
 
