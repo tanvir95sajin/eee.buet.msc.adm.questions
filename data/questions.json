@@ -15,7 +15,7 @@
     "course": "EEE 101",
     "major": "General",
     "questionType": "image",
-    "questionImage": "assets/questions/2023-101.png",
+    "questionImage": "assets/questions/2023-101.png"
     
   },
 
@@ -25,7 +25,7 @@
   "course": "EEE 101",
   "major": "General",
   "questionText": "Find the power delivered by 2A. (Use 50 ohm, instead of the 55 one. - Nilsson)",
-  "questionImage": "assets/questions/18-101",
+  "questionImage": "assets/questions/18-101"
 
 },
 
