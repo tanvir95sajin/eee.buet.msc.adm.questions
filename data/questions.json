@@ -218,9 +218,95 @@
     "course": "EEE 201",
     "major": "Electronics",
     "questionText": "What is the efficiency of a center-tapped full-wave rectifier? (MCQ)"
-  }
+  },
+  {
+    "id": "15-303",
+    "year": 2015,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "Draw the expression using NAND gate: AB'+BA'"
+  },
+  {
+    "id": "24-303-33",
+    "year": 2024,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "Given a Boolean function defined by the expression u'v'+(uv)'+uvw, where u, v, 2 are binary variables, you are required to implement this function using a look up table."
+  },
+  {
+    "id": "23-303-33",
+    "year": 2023,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "Find the sum of products for the given function: \n f = x'<sub>1</sub> x'<sub>2</sub> x<sub>3</sub> + x'<sub>1</sub> x<sub>2</sub> x'<sub>3</sub> + x'<sub>1</sub> x<sub>2</sub> x<sub>3</sub> + x<sub>1</sub> x<sub>2</sub> x<sub>3</sub>"
+  },
+   {
+    "id": "22-303-33",
+    "year": 2022,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "A pulse is applied to each inout of an exclusive-OR gate. One pulse goes HIGH at t=0 and goes back LOW at t=1ms. The other pulse goes HIGH at t=0.8ms and goes back LOW at t=3ms. Draw the output pulse. (It was an MCQ with options)"
+  },
+  {
+    "id": "24-303-323",
+    "year": 2024,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "Given a Boolean function defined by the expression u'v'+(uv)'+uvw, where u, v, 2 are binary variables, you are required to implement this function using a look up table."
+  }, 
+ {
+    "id": "19-303-33s",
+    "year": 2019,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "Find SOP from the following K-Map.",
+    "questionImage": "assets/questions/kmap.png"
+  }, 
 
+   {
+    "id": "24-mux",
+    "year": 2024,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "Given a boolean function specified by its minterms (0, 2, 3, 6) for a three-variable logic system, implement this function using a 2x1 mux/"
+  }, 
+   {
+    "id": "25-logic",
+    "year": 2025,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "Implement the boolean function F(w1, w2, w3) = ∑m(0, 4, 6, 7) using a 2x1 mux and the minimum number of additional logic gates, with w2 as the select line."
+  }, 
 
+    {
+    "id": "21-logic",
+    "year": 2021,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "A JK Flipflop has a total propaation delay of 12 ns. What is the largest modulus of a ripple counter using these flipflops and operating at 10 MHz? (MCQ)"
+  }, 
+    {
+    "id": "18-logic",
+    "year": 2018,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "Draw the CMOS complex gate logic circuit function on \n Y = A' + (B' + C')"
+  }, 
+    {
+    "id": "17-logic",
+    "year": 2017,
+    "course": "EEE 303",
+    "major": "Electronics",
+    "questionText": "Draw the CMOS complex gate logic circuit function on \n Y = A' + B'C' "
+  }, 
+  {
+    "id": "25-mic",
+    "year": 2025,
+    "course": "EEE 415",
+    "major": "Electronics",
+    "questionText": "Consider a Mealy FSM with two state variables y2 and y1, two inputs a and b, and one output s. The state transition table is given below. \n Draw the state diagram for the Mealy FSM. Determine the sequence of input ab that the FSM is designed to detecet.",
+    "questionImage: "assets/questions/fsm.png"
+  } 
 
 ]
 
