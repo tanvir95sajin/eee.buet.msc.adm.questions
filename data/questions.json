@@ -606,6 +606,34 @@
     "questionText": "If v<sub>o</sub> = a + b sin &omega;t, determine th value of a and b in the following circuit.",
     "questionImage": "assets/questions/25-opamp.jpg",
     "answerText": "a = -12, b = -10"
+  },
+
+  {
+    "id": "24-opamp-2",
+    "year": 2024,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "Find Vo/Vi",
+    "questionImage": "assets/questions/24-opamp-2.jpg",
+    "answerText": "1"
+  },
+  {
+    "id": "15-opamp-2",
+    "year": 2015,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "Calculate v<sub>o</sub> and i<sub>o</sub> in the following circuit if the op-amp is ideal.",
+    "questionImage": "assets/questions/15-opamp-2.jpg",
+    "answerText": "6V, 3mA"
+  },
+  {
+    "id": "16-opamp-2",
+    "year": 2016,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "Calculate v<sub>o</sub> and i<sub>o</sub> in the following circuit if the op-amp is ideal.",
+    "questionImage": "assets/questions/16-opamp2.jpg",
+    "answerText": "6V, 3mA"
   }
   
   
