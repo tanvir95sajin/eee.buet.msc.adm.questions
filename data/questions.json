@@ -634,7 +634,80 @@
     "questionText": "Calculate v<sub>o</sub> and i<sub>o</sub> in the following circuit if the op-amp is ideal.",
     "questionImage": "assets/questions/16-opamp2.jpg",
     "answerText": "6V, 3mA"
+  },
+  {
+    "id": "19-opamp-3",
+    "year": 2019,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "E<sub>2</sub> is a 20V p-p sinusoidal source and E<sub>1</sub> = 5V. Draw the wavesape of Vo.",
+    "questionImage": "assets/questions/19-opamp-3.jpg",
+    "answerText": "E1-E2"
+  },
+  {
+    "id": "23-opamp-act",
+    "year": 2023,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "Comment on the type of filter shown in the following figure.",
+    "questionImage": "assets/questions/23-act.jpg",
+    "answerText": "6V, 3mA"
+  },
+
+  {
+    "id": "18-opamp-3",
+    "year": 2018,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "Draw Vin vs Vout transfer curve of the following circuit. Biasing voltage of the op-amp is 12V and Vin is 10V peak sine wave. (Came thrice, in '18, '14 and '13)",
+    "questionImage": "assets/questions/19-opamp-3_2.jpg",
+    "answerText": "6V, 3mA"
+  },
+  {
+    "id": "21-slew",
+    "year": 2021,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "An op-amp has a slew rate of 5 V/&mu;s and an open loop gain of 2000. What is the possible largest sine wave output voltage at a frequency of 1MHz? (MCQ)",
+    "answerText": "2.5/&pi; V"
+  },
+{
+    "id": "21-cmrr",
+    "year": 2021,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "With a differential gain of 50000, a common-mode gain of 2 and slew rate of 5V/&mu;s, what is the common-mode rejection ratio of an op-amp? (MCQ)",
+    "answerText": "87.9 dB"
+  },
+  {
+    "id": "22-swb",
+    "year": 2022,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "Calculate the resonant frequency. (MCQ)",
+    "questionImage": "assets/questions/22-wb_1.jpg",
+    "answerText": "3120.7 Hz"
+  },
+  {
+    "id": "22-swbs",
+    "year": 2022,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "The figures show an oscillator circuit having an ideal Schmitt trigger and its input-output characteristics. The time-period (in ms) of Vo is -  (MCQ)",
+    "questionImage": "assets/questions/22-wb_2.jpg",
+    "answerText": "8.1 ms"
+  },
+  {
+    "id": "21-sswb",
+    "year": 2021,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "Which of the following is not a property of an ideal operational amplifier? (MCQ)",
+    "answerText": "Infinite open loop gain"
   }
+
+
+
   
   
 ]
