@@ -272,6 +272,7 @@ function renderCard(q) {
   let bodyHtml = "";
   if (q.questionText) bodyHtml += `<div class="q-text">${q.questionText}</div>`;
   if (q.questionImage) bodyHtml += `<img src="${q.questionImage}" alt="Question ${q.id}" loading="lazy">`;
+  if (q.kmap) bodyHtml += `<div class="kmap-wrap">${buildKmapHtml(q.kmap)}</div>`;
   body.innerHTML = bodyHtml;
   card.appendChild(body);
 
@@ -282,11 +283,10 @@ function renderCard(q) {
 
   const answerPanel = document.createElement("div");
   answerPanel.className = "answer-panel";
-  if (q.answerImage) {
-    answerPanel.innerHTML = `<img src="${q.answerImage}" alt="Answer for ${q.id}" loading="lazy">`;
-  } else {
-    answerPanel.innerHTML = `<p><em>No answer image added yet.</em></p>`;
-  }
+  let answerHtml = "";
+  if (q.answerText) answerHtml += `<div class="a-text">${q.answerText}</div>`;
+  if (q.answerImage) answerHtml += `<img src="${q.answerImage}" alt="Answer for ${q.id}" loading="lazy">`;
+  answerPanel.innerHTML = answerHtml || `<p><em>No answer added yet.</em></p>`;
 
   btn.addEventListener("click", () => {
     const isOpen = answerPanel.classList.toggle("is-open");
