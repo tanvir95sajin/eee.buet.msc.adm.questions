@@ -7,7 +7,7 @@
   "EEE 207": { "name": "Electronic Circuits II", "books": ["R.F. Coughlin and F.F. Driscoll, “Operational Amplifiers and Linear Integrated Circuits”", "Sedra and Smith, “Microelectronic Circuits”", "R. Boylestad, L. Nashelsky, “Electronic Devices and Circuit Theory”"], "topics": ["Non-inverting Summing Amplifiers", "Voltage Follower with Feedback Response", "Op-Amp with Zener Diodes", "Active Filters", "Wien-Bridge Oscillator", "Schmitt-Trigger Oscillator"] },
   "EEE 209": { "name": "Engineering Electromagnetics", "books": [], "topics": [] },
   "EEE 211": { "name": "Continuous Signals and Linear Systems", "books": [], "topics": [] },
-  "EEE 303": { "name": "Digital Electronics", "books": ["Digital Design and Computer Architecture ARM Edition - Harris", "Thomas L. Floyd, "Digital Fundamentals" 11th Edition, Pearson (2015)"], "topics": [] },
+  "EEE 303": { "name": "Digital Electronics", "books": ["Digital Design and Computer Architecture ARM Edition - Harris", "Thomas L. Floyd, Digital Fundamentals 11th Edition, Pearson (2015)"], "topics": [] },
   "EEE 305": { "name": "Power Systems I", "books": [], "topics": [] },
   "EEE 307": { "name": "Electrical Properties of Materials", "books": ["Principles of Electronic Materials and Devices by S. O. Kasap", "Semiconductor Physics and Devices: Basic Principles by Donald A. Neaman"], "topics": [] },
   "EEE 309": { "name": "Communication Systems I", "books": [], "topics": [] },
