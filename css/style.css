@@ -379,6 +379,14 @@ code {
 
 .answer-panel.is-open { max-height: 900px; }
 
+.answer-panel .a-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--ink);
+  white-space: pre-line;
+  margin: 4px 0 10px;
+}
+
 .answer-panel img {
   max-width: 100%;
   border: 1px solid var(--rule);
