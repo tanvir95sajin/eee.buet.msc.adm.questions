@@ -576,6 +576,38 @@
     "course": "EEE 309",
     "major": "CSP",
     "questionText": "If x(t) = 5 cos 600 &pi;t + 10 cos 1000 &pi;t - 100 cos 6800 &pi;t, what is the fundamental frequency and nyquist rate of x(t)? (MCQ)"
+  },
+
+  {
+    "id": "22-opamp-1",
+    "year": 2022,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "Find the gain limit/margin in the following op-amp circuit. (MCQ)",
+    "questionImage": "assets/questions/22-opamp.jpg",
+    "answerText": "-8 to -20"
+  },
+
+  {
+    "id": "17-opamp-1",
+    "year": 2017,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "Find Vo",
+    "questionImage": "assets/questions/17-opamp.jpg",
+    "answerText": "-10V1 - 5V2"
+  },
+
+    {
+    "id": "25-opamp-1",
+    "year": 2025,
+    "course": "EEE 207",
+    "major": "Electronics",
+    "questionText": "If v<sub>o</sub> = a + b sin &omega;t, determine th value of a and b in the following circuit.",
+    "questionImage": "assets/questions/25-opamp.jpg",
+    "answerText": "a = -12, b = -10"
   }
+  
+  
 ]
 
