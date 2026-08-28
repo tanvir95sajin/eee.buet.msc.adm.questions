@@ -713,6 +713,25 @@
     "major": "General",
     "questionText": "When connected to a 214 v (rms), 50 Hz power line, a load absorbs 4kW at a lagging pf of 0.8. Find the value of capacitance to make it a resonance circuit.",
     "answerText": "206.58&mu;F"
+  },
+
+   {
+    "id": "15-ps",
+    "year": 2015,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "A three phase load draws 250 kW at a pf of 0.707 lagging from a 440 V line. In parallel with this load is a three phase capacitor bank which draws 60 kVAR. Find the total current and resultant power factor.",
+    "answerText": "206.58&mu;F"
+  },
+
+   {
+    "id": "19-ps",
+    "year": 2019,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "The two loads in the circuit shown in the Figure can be described as follows: \n Load 1 absorbs an average power of 8 kW at a leading power factor of 0.8. \n Load 2 absorbs 20 kVA at a lagging power factor of 0.6. \n Given that the frequency of the source is 60 Hz, compute the value of the capacitor that would correct the power factor to 1 if placed in parallel with the two loads.",
+    "questionImage": "assets/questions/19ps.png",
+    "answerText": "424.4&mu;F"
   }
 
 
