@@ -732,7 +732,41 @@
     "questionText": "The two loads in the circuit shown in the Figure can be described as follows: \n Load 1 absorbs an average power of 8 kW at a leading power factor of 0.8. \n Load 2 absorbs 20 kVA at a lagging power factor of 0.6. \n Given that the frequency of the source is 60 Hz, compute the value of the capacitor that would correct the power factor to 1 if placed in parallel with the two loads.",
     "questionImage": "assets/questions/19ps.png",
     "answerText": "424.4&mu;F"
+  },
+  {
+    "id": "21-varload",
+    "year": 2021,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "The annual load duration curve of a certain power station can be considered as a straight line from 40 MW to 8 MW. To meet this demand, three turbine generator units, two rated at 20 MW each and one rated at 10MW are installed. What is the Load Factor? (MCQ).",
+    "answerText": "60%"
+  },
+
+  {
+    "id": "17-varload",
+    "year": 2017,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "Find the Pkant Capacity Factor and Load Factor of a 10 GW powerstation, whose annual load varies linearly from 8GW to 4GW.",
+    "answerText": "CF=0.6, LF=0.75"
+  },
+  {
+    "id": "24-trans",
+    "year": 2024,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "What are the main disadvantages associated with long distance electrical power transmission? What are the remedies?"  
+  },
+
+    {
+    "id": "21-trans",
+    "year": 2021,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "Ferranti effect is exhibited by- (MCQ).",
+    "answerText": "Lightly loaded long lines."
   }
+  
 
 
 
