@@ -704,6 +704,15 @@
     "major": "Electronics",
     "questionText": "Which of the following is not a property of an ideal operational amplifier? (MCQ)",
     "answerText": "Infinite open loop gain"
+  },
+
+  {
+    "id": "17-ps",
+    "year": 2017,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "When connected to a 214 v (rms), 50 Hz power line, a load absorbs 4kW at a lagging pf of 0.8. Find the value of capacitance to make it a resonance circuit.",
+    "answerText": "206.58&mu;F"
   }
 
 
