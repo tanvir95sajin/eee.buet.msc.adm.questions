@@ -844,6 +844,35 @@
     "major": "Power",
     "questionText": "Zero sequence parameters are needed for analysis of which type of fault? (MCQ)",
     "answerText": "L-G"
+  },
+
+  {
+    "id": "21-pu",
+    "year": 2021,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "A generator's power output is 0.75 pu which equals 150MW. If the base voltage is 15kV, what is the value of the base impedance to be used for pu reactance of this generator? (MCQ)",
+    "answerText": "1.125&Omega;"
+  }.
+
+  {
+    "id": "15-seq",
+    "year": 2015,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "For the following power system, sketch the zero sequence network",
+    "questionImage": "assets/questions/15seq.png"
+    "answerText": "Grainger - Pg. 464"
+  },
+
+  {
+    "id": "16-seq",
+    "year": 2016,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "For the following power system, sketch the zero sequence network",
+    "questionImage": "assets/questions/15seq.png"
+    "answerText": "Grainger - Pg. 464"
   }
 
 
