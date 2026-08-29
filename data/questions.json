@@ -853,7 +853,7 @@
     "major": "Power",
     "questionText": "A generator's power output is 0.75 pu which equals 150MW. If the base voltage is 15kV, what is the value of the base impedance to be used for pu reactance of this generator? (MCQ)",
     "answerText": "1.125&Omega;"
-  }.
+  },
 
   {
     "id": "15-seq",
