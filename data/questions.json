@@ -892,7 +892,17 @@
     "major": "Power",
     "questionText": "The bus data for a bus of a power system is given below. \n Generation: Pg = 100 MW, Qg = 60 MVAR \n Load: Pl= 60 MW, Ql = 30 MVAR \n If a capacitor bank of 10MVAR is connected with the bus, calculate the bus powers in per unit on a base of 100 MVA.",
     "answerText": "Real power = 0.4 pu, Reactive power = 0.4 pu"
+  },
+
+  {
+    "id": "21-stw",
+    "year": 2021,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "An over-current relay having a current setting of 125% is connected to a supply circuit through a CT of 400/5. What would be the pickup current? (MCQ).",
+    "answerText": "6.25A"
   }
+
 
 
   
