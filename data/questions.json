@@ -765,9 +765,86 @@
     "major": "Power",
     "questionText": "Ferranti effect is exhibited by- (MCQ).",
     "answerText": "Lightly loaded long lines."
-  }
-  
+  },
 
+  {
+    "id": "24-symcom",
+    "year": 2024,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "A generator is Y-connected with solidly grounded neutral. If the phase currents are 10&ang;-5&deg;, 10&ang;-115&deg; then find the zero sequence current and negative sequence current.",
+    "answerText": "ZSC = 0.581&ang;-30 A, NSC = 0.581&ang;-150 A"
+  },
+
+  {
+    "id": "21-symcom",
+    "year": 2021,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "The zero-sequence component of phase current in a three-phase system, when the current from neutral to ground connection is 30A, will be - (MCQ).",
+    "answerText": "10A"
+  },
+  {
+    "id": "16-symcom",
+    "year": 2016,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "If Ia = 0, Ib = -Ic = -2j. \n (i) Which type of fault has occurred in the system? \n (ii) Find the current through the neutral wire of the generator.",
+    "answerText": "LL Fault, 0A"
+  },
+
+  {
+    "id": "24-LL",
+    "year": 2024,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "In a three phase power system, the per unit values of positive, negative and zero sequence reactances are 0.2 pu, 0.2 pu and 0.25pu respectively. Calculate the fault current - \n a. When two of the three lines are short-circuited together with Z<sub>f</sub> = 0.1 pu \n b. When all the three lines are shorted together with the same fault impendance as (a).",
+    "answerText": "a. 3.64pu, b. 3.33pu"
+  },
+
+  {
+    "id": "24-symcoms",
+    "year": 2024,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "A generator is Y-connected with solidly grounded neutral. If the phase currents are 10&ang;-5&deg;, 10&ang;-115&deg; then find the zero sequence current and negative sequence current.",
+    "answerText": "ZSC = 0.581&ang;-30 A, NSC = 0.581&ang;-150 A"
+  },
+
+  {
+    "id": "17-symcomll",
+    "year": 2017,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "Draw the sequence network for a double line to ground fault ocurred in phase b and c with Zf in the following unloaded generator.",
+    "questionImage": "assets/questions/unsym24.png"
+  },
+
+  {
+    "id": "19-ocf",
+    "year": 2019,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "One conductor of a three-phase line is open. The current flowing to the &Delta;-connected load trough line 'a' is 10A. With current in line 'a' as reference and assuming that line 'c' is open, find the symmetrical components of the line current.",
+    "answerText": "I<sub>a0</sub> = 0A, I<sub>a1</sub> = 5.78&ang;-30&deg;, I<sub>a2</sub> = 5.78&ang;30&deg;, I<sub>b0</sub> = 0, I<sub>b1</sub> = 5.78&ang;-150&deg;, I<sub>b2</sub> = 5.78&ang;150&deg;, I<sub>c0</sub> = 0A, I<sub>a1</sub> = 5.78&ang;-30&deg;,I<sub>c1</sub> = 5.78&ang;90&deg;, I<sub>c2</sub> = 5.78&ang;-90&deg;"
+  },
+
+  {
+    "id": "24-symcsomll",
+    "year": 2024,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "What is zero sequence current? What's its significance in power systems? Under which conditions zero sequence currents are typically generated?",
+    "answerText": "ChatGPT"
+  },
+  {
+    "id": "21-symcomll",
+    "year": 2021,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "Zero sequence parameters are needed for analysis of which type of fault? (MCQ)",
+    "answerText": "L-G"
+  }
 
 
   
