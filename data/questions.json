@@ -901,7 +901,36 @@
     "major": "Power",
     "questionText": "An over-current relay having a current setting of 125% is connected to a supply circuit through a CT of 400/5. What would be the pickup current? (MCQ).",
     "answerText": "6.25A"
+  },
+
+  {
+    "id": "16-com",
+    "year": 2016,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "In an amplitude modulation carrier power is 1000 W and sideband power is 180 W. Find modulation index.",
+    "answerText": "0.6"
+  },
+
+  {
+    "id": "21-com",
+    "year": 2021,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "Consider a communication system that uses DSB+C amplitude modulation. The power of unmodulated carrier signal is 8W and the total transmit power is 24 W. What is the modulation index of the system?",
+    "answerText": "2"
+  },
+
+  {
+    "id": "16-com",
+    "year": 2016,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "In an amplitude modulation carrier power is 1000 W and sideband power is 180 W. Find modulation index.",
+    "answerText": "0.6"
   }
+
+
 
 
 
