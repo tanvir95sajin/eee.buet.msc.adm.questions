@@ -883,6 +883,15 @@
     "questionText": "Two generator units G1 and G2 are connected by 15kV line with a bust at the mid-point as shown below. The parameters are - \n G1 = 250 MVA, 15kV, positive sequence reactance, X=25% on its own base \n G2 = 100 MVA, 15kV, positive sequence reactance, X=10% on its own base \n Draw the positive sequence network of the system with the pu values on 100 MVA base. What is the fault level at bus 3?",
     "questionImage": "assets/questions/19symf.png",
     "answerText": "Z<sub>fault,p.u.</sub> = j0.55pu, I<sub>fault</sub> = 6998A"
+  },
+
+  {
+    "id": "23-st",
+    "year": 2023,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "The bus data for a bus of a power system is given below. \n Generation: Pg = 100 MW, Qg = 60 MVAR \n Load: Pl= 60 MW, Ql = 30 MVAR \n If a capacitor bank of 10MVAR is connected with the bus, calculate the bus powers in per unit on a base of 100 MVA.",
+    "answerText": "Real power = 0.4 pu, Reactive power = 0.4 pu"
   }
 
 
