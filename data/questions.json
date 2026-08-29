@@ -873,6 +873,16 @@
     "questionText": "For the following power system, sketch the zero sequence network",
     "questionImage": "assets/questions/15seq.png"
     "answerText": "Grainger - Pg. 464"
+  },
+
+   {
+    "id": "19-symf",
+    "year": 2019,
+    "course": "EEE 305",
+    "major": "Power",
+    "questionText": "Two generator units G1 and G2 are connected by 15kV line with a bust at the mid-point as shown below. The parameters are - \n G1 = 250 MVA, 15kV, positive sequence reactance, X=25% on its own base \n G2 = 100 MVA, 15kV, positive sequence reactance, X=10% on its own base \n Draw the positive sequence network of the system with the pu values on 100 MVA base. What is the fault level at bus 3?",
+    "questionImage": "assets/questions/19symf.png"
+    "answerText": "Z<sub>fault,p.u.</sub> = j0.55pu, I<sub>fault</sub> = 6998A"
   }
 
 
