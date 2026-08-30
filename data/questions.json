@@ -966,6 +966,26 @@
     "questionText": "Find the Thevenin equivalent of the following circuit.",
     "questionImage": "assets/questions/18thev.png",
     "answerText": "118.58 V, 5.929&Omega;"
+  },
+
+  {
+    "id": "18-nort",
+    "year": 2018,
+    "course": "EEE 101",
+    "major": "General",
+    "questionText": "Determine the current i using Norton's theorem.",
+    "questionImage": "assets/questions/18-nort.jpg",
+    "answerText": "-20mA"
+  },
+
+  {
+    "id": "16max",
+    "year": 2016,
+    "course": "EEE 101",
+    "major": "General",
+    "questionText": "Find the value of R<sub>L</sub> under maximum power transfer condition. Determine the maximum power.",
+    "questionImage": "assets/questions/16max.jpg",
+    "answerText": "-20mA"
   }
 
 
