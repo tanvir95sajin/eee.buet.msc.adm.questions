@@ -928,6 +928,44 @@
     "major": "CSP",
     "questionText": "In an amplitude modulation carrier power is 1000 W and sideband power is 180 W. Find modulation index.",
     "answerText": "0.6"
+  },
+
+    {
+    "id": "17-mesh",
+    "year": 2017,
+    "course": "EEE 101",
+    "major": "General",
+    "questionText": "Determine io using mesh analysis.",
+    "questionImage": "assets/questions/17-mesh.png",
+    "answerText": "2mA"
+  },
+
+      {
+    "id": "18-mesh",
+    "year": 2018,
+    "course": "EEE 101",
+    "major": "General",
+    "questionText": "Determine the current through 7&Omega; using nodal analysis.",
+    "questionImage": "assets/questions/18-mesh.png",
+    "answerText": "1.78A"
+  },
+      {
+    "id": "17-mesh",
+    "year": 2017,
+    "course": "EEE 101",
+    "major": "General",
+    "questionText": "Determine io using mesh analysis.",
+    "questionImage": "assets/questions/17-mesh.png",
+    "answerText": "2mA"
+  },
+    {
+    "id": "18-thev",
+    "year": 2018,
+    "course": "EEE 101",
+    "major": "General",
+    "questionText": "Find the Thevenin equivalent of the following circuit.",
+    "questionImage": "assets/questions/18thev.png",
+    "answerText": "118.58 V, 5.929&Omega;"
   }
 
 
