@@ -995,7 +995,45 @@
     "questionText": "Consider the following circuit, where the component vlues are provided as: Vin = 120 V rms, R1=0.243&Omega;, X1=0.67&Omega;, Xm=14.03&Omega;, X2=0.67&Omega,R2=0.151&Omega;, s=0.111. Find the Thrvenin's equivalent impedance and voltage across terminals a-b..",
     "questionImage": "assets/questions/24acco.jpg",
     "answerText": "0.269+j0.423 &Omega;, 84.46&ang;-12.45&deg;"
+  },
+
+  {
+    "id": "16-asccom",
+    "year": 2016,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "v(t) = 310 sin(&omega;t - 45&deg;) and i(t) = 31 cos (&omega;t - 60&deg;). Determine resistive and reactive component of the impendance.",
+    "answerText": "2.59 &Omega;, -9.66&Omega;"
+  },
+   {
+    "id": "17-rlcss",
+    "year": 2017,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "In a RLC circuit, v(t) = 300 sin(300t) and i(t) = 31 cos (300t + 45&deg;) and L=10mH. Calculate the value of R and C.",
+    "answerText": "21.21 &Omega;, 137.68&mu;F;"
+  },
+
+   {
+    "id": "15-Ssssccom",
+    "year": 2015,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "For which value of f, phase difference between input voltage and current will be -25&deg;?",
+     "questionImage": "assets/question/15rc.jpg",
+    "answerText": "6.05 kHz"
+  },
+
+     {
+    "id": "15-Sssreso",
+    "year": 2015,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "Find the value of C for parallel resonance",
+     "questionImage": "assets/question/15reso.jpg",
+    "answerText": "160.9 nF"
   }
+
 
 
 
