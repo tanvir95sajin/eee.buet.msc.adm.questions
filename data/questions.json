@@ -985,9 +985,17 @@
     "major": "General",
     "questionText": "Find the value of R<sub>L</sub> under maximum power transfer condition. Determine the maximum power.",
     "questionImage": "assets/questions/16max.jpg",
-    "answerText": "-20mA"
+    "answerText": "4&Omega;, 1W"
+  },
+  {
+    "id": "24-accom",
+    "year": 2024,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "Consider the following circuit, where the component vlues are provided as: Vin = 120 V rms, R1=0.243&Omega;, X1=0.67&Omega;, Xm=14.03&Omega;, X2=0.67&Omega,R2=0.151&Omega;, s=0.111. Find the Thrvenin's equivalent impedance and voltage across terminals a-b..",
+    "questionImage": "assets/questions/24acco.jpg",
+    "answerText": "0.269+j0.423 &Omega;, 84.46&ang;-12.45&deg;"
   }
-
 
 
 
