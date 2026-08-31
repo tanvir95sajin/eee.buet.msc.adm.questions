@@ -1051,6 +1051,15 @@
     "questionText": "Determine all the node voltages and branch currents, assuming &beta; to be 100..",
      "questionImage": "assets/question/19bjt.png",
     "answerText": "V<sub>E</sub> = 3.3 V, I<sub>E</sub> = 1 mA, V<sub>C</sub> = 5.3 V, I<sub>C</sub> = 0.99 mA, I<sub>B</sub> = 0.01 mA"
+  },
+   {
+    "id": "18-bjtvd",
+    "year": 2018,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "Determine Vce and Ic.",
+     "questionImage": "assets/question/18vdb.jpg",
+    "answerText": "12.22V, 0.85A"
   }
   
 
