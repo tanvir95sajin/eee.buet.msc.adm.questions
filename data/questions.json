@@ -1079,8 +1079,34 @@
     "questionText": "_",
      "questionImage": "assets/question/15transs.jpg",
     "answerText": "Rb = 150 k&Omega;, Rc = 1 k&Omega; (Can vary)"
+  },
+
+  {
+    "id": "21-bssjtvd",
+    "year": 2021,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "The parameters of a transistor are given as &beta; = 180 and early voltage, V<sub>a</sub> = 150 V. If it is biased at I<sub>CQ</sub> = 3 mA, what will be the hybrid-&pi; parameter r<sub>o</sub> (output resistance)? MCQ",
+    "answerText": "50 k&Omega;"
+  },
+
+  {
+    "id": "21-bjtvd",
+    "year": 2021,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "In a p-n-p transistor, Vb = 3.13V, Ve = 3.83 V and Vc = 3.63 V. What is the mode of operation of the transistor? MCQ",
+    "answerText": "Saturation"
+  },
+
+  {
+    "id": "22-bjtvd",
+    "year": 2022,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "In a CE configuration, an emitter resistor is used for - MCQ",
+    "answerText": "Stabilization"
   }
-  
 
 
 
