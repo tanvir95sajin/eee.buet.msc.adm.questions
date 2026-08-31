@@ -1060,7 +1060,18 @@
     "questionText": "Determine Vce and Ic.",
      "questionImage": "assets/question/18vdb.jpg",
     "answerText": "12.22V, 0.85A"
+  },
+
+  {
+    "id": "22-bjtvd",
+    "year": 2022,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "In a p-n-p transistor, Vb = 3.13V, Ve = 3.83 V and Vc = 3.63 V. What is the mode of operation of the transistor? MCQ",
+    "answerText": "Saturation"
   }
+
+  
   
 
 
