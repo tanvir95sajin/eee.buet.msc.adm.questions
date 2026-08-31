@@ -1032,6 +1032,16 @@
     "questionText": "Find the value of C for parallel resonance",
      "questionImage": "assets/question/15reso.jpg",
     "answerText": "160.9 nF"
+  },
+
+    {
+    "id": "16-bjt",
+    "year": 2016,
+    "course": "EEE 201",
+    "major": "Electronics",
+    "questionText": "The transistor in the circuit of figure has &beta; = 100 and exhibits a V<sub>BE</sub> of 0.7V at Ic = 1 mA. Design the circuit so that a current of 2 mA flows through the collector and a voltage of +5V appears at the collector.",
+     "questionImage": "assets/question/16bjt1.jpg",
+    "answerText": "Rc = 5k&omega;, Re = 7.0708 k&omega;"
   }
 
 
