@@ -1215,7 +1215,7 @@
     "course": "EEE 311",
     "major": "CSP",
     "questionText": "The discrete time signal shown is sampled at integer indices n. What is its digital frequency of x(n)? If the sampling frequency is Fs = 160 Hz, determine the first three lowest positive analog frequencies that map to the same digital frequency as signal.",
-    "questionImage": "assets/questions/24samp.jpg",
+    "questionImage": "assets/questions/25samp.jpg",
     "answerText": "1/4 cycles/sample, 40 Hz; 40, 120 and 200 Hz."
   },
    {
