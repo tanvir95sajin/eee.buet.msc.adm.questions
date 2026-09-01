@@ -1206,7 +1206,66 @@
     "major": "CSP",
     "questionText": "Sketch the spectrum of y(t).",
     "questionImage": "assets/questions/24spec.jpg"
+  },
+
+
+   {
+    "id": "25-samp",
+    "year": 2025,
+    "course": "EEE 311",
+    "major": "CSP",
+    "questionText": "The discrete time signal shown is sampled at integer indices n. What is its digital frequency of x(n)? If the sampling frequency is Fs = 160 Hz, determine the first three lowest positive analog frequencies that map to the same digital frequency as signal.",
+    "questionImage": "assets/questions/24samp.jpg",
+    "answerText": "1/4 cycles/sample, 40 Hz; 40, 120 and 200 Hz."
+  },
+   {
+    "id": "24-fsfsstss",
+    "year": 2024,
+    "course": "EEE 311",
+    "major": "CSP",
+    "questionText": "If x(t) = cos4000&pi;t, find x(n). Sketch |X(e<sup>jw</sup>)| in range of -&pi; < w < &pi;. Given the sampling frequency Fs = 6000 sample/sec.",
+    "answerText": "impulse at -2pi/3 and 2pi/3"
+  },
+
+   {
+    "id": "22-fssfsstss",
+    "year": 2022,
+    "course": "EEE 311",
+    "major": "CSP",
+    "questionText": "If continuous time signal x(t) = sin (100&pi;t) + sin (20&pi;t) - 2 sin (180&pi;t) is sampled at 40 samples/sec, find the discrete signal. (MCQ)",
+    "answerText": "x[n] = sin 2.5&pi;n + sin 0.5&pi;n - 2 sin4.5&pi;n"
+  },
+
+   {
+    "id": "21-fssddsfsstss",
+    "year": 2021,
+    "course": "EEE 311",
+    "major": "CSP",
+    "questionText": "Determine the fundamental period of the discrete time sinusoidal signal \n x(n) = 10 cos (4&pi;n/31 + &pi;/5)",
+    "answerText": "15.5"
+  },
+
+   {
+    "id": "25-sae",
+    "year": 2025,
+    "course": "EEE 439",
+    "major": "CSP",
+    "questionText": "Among binary PSK and QPSK, which digital scheme is generally preferred in modern applications? Justify your answer with logic.",
+    "answerText": "QPSK"
+  },
+
+   {
+    "id": "16-Swfsstss",
+    "year": 2016,
+    "course": "EEE 439",
+    "major": "CSP",
+    "questionText": "x(t) = 200 sin (1000&pi;t) + 500 sin (2000&pi;t). The signal is sampled at a rate 33.33% higher than the Nyquist rate. If delta modulation is used, find the bit rate and Baud Rate. If QPSK is used, find he information rate.",
+    "answerText": "2666.6 bps, 2666.6 baud, 5333.2 bps"
   }
+
+
+
+
 
 
 
