@@ -1354,7 +1354,76 @@
     "major": "CSP",
     "questionText": "In case if homodyne and heterodyne detections of a modulated signal, which is common? (MCQ)",
     "answerText": "Local oscillator is required at the receiver"
+  },
+
+  
+   {
+    "id": "25-sssaaaigesys",
+    "year": 2025,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "Two parallel loads draw a combined power of 40.3 kW at 0.8 pf lagging. One load is rated at 20 kVA with a 0.96 pf leading. Determine the power factor of the second load.",
+    "answerText": "0.51 lagging"
+  },
+
+     {
+    "id": "25-sssaaaiagesys",
+    "year": 2025,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "A power plant has an installed capacity of 23,000 MW. Its running capacity is 16,500 MW, and the maximum demand being served is 16000 MW. Calculate the spinning reserve.",
+    "answerText": "500 MW"
+  },
+
+     {
+    "id": "25-sssafaaigesys",
+    "year": 2025,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "In a three phase system, the phase currents are 10&ang;0&deg;, 10&ang;-60&deg; and 10&ang;60&deg;. Determine the neutral current and zero-sequence current.",
+    "answerText": "20A, 20/3 A"
+  },
+
+  {
+    "id": "25-sssafsaaaigesys",
+    "year": 2025,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "A three phase squirrel cage induction motor takes 80 k@ input at its stator terminals. The combined stator-core, copper and stray losses are 1.5 kW. When operating at a slip of 4%, Determine the efficiency of the motor, assuming mechanical (friction+windage) losses are negligible.",
+    "answerText": ""
+  },
+
+  {
+    "id": "25-sssafaaigesys",
+    "year": 2025,
+    "course": "EEE 105",
+    "major": "General",
+    "questionText": "In a three phase system, the phase currents are 10&ang;0&deg;, 10&ang;-60&deg; and 10&ang;60&deg;. Determine the neutral current and zero-sequence current.",
+    "answerText": "20A, 20/3 A"
+  },
+
+  {
+    "id": "25-sssafa11aigesys",
+    "year": 2025,
+    "course": "EEE 203",
+    "major": "Power",
+    "questionText": "A 480V, 200kVA, 0.8 pf lagging, 60 Hz, four pole, Y-connected synchronous generator has a direct axis reactance of 0.25 &Omega;, a quadrature axis reactance of 0.18 &Omega; and an armature resistance of 0.03 &Omega;. Friction, windage and stray losses may be assumed negligible. Determine the torque angle of this machine when it is operating at rated conditions.",
+    "answerText": ""
+  },
+
+  {
+    "id": "25-swassafaaigesys",
+    "year": 2025,
+    "course": "EEE 317",
+    "major": "General",
+    "questionText": "For a unity feedback system with a transfer function of K/s(s+40), determine the value of K such that the closed-loop system has a damping ratio of 0.8.",
+    "answerText": ""
   }
+
+
+
+
+
   
 
 
