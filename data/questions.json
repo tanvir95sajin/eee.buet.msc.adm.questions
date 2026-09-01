@@ -1261,7 +1261,101 @@
     "major": "CSP",
     "questionText": "x(t) = 200 sin (1000&pi;t) + 500 sin (2000&pi;t). The signal is sampled at a rate 33.33% higher than the Nyquist rate. If delta modulation is used, find the bit rate and Baud Rate. If QPSK is used, find he information rate.",
     "answerText": "2666.6 bps, 2666.6 baud, 5333.2 bps"
+  },
+
+  {
+    "id": "17-asae",
+    "year": 2017,
+    "course": "EEE 439",
+    "major": "CSP",
+    "questionText": "x(n) = sin(25&pi;n). Find the period of x(n). Considering the standard sampling rate for telephone system, find the bit rate if delta modulation is used",
+    "answerText": "0.08s, 8kHz"
+  },
+
+  {
+    "id": "15-asbare",
+    "year": 2015,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "The bipolar RZ (AMI) signaling waveform representing the binary sequence 0100101011 is transmitted over a noisy channel. The received waveform is shown in the figure, which contains a single error. Locate the position of this error and justify your answer.",
+    "questionImage": "assets/questions/15bar.jpg",
+    "answerText": "bit position 7"
+  },
+
+  
+  
+  {
+    "id": "18-sige",
+    "year": 2018,
+    "course": "EEE 211",
+    "major": "CSP",
+    "questionText": "Express h(t) as a combination of g(t) using scaling, shifting or mirroring if necessary.",
+    "questionImage": "assets/questions/18sig.jpg",
+    "answerText": "h(t) = g(t+0.5) + g (-t+0.5)"
+  },
+  {
+    "id": "25-sigesys",
+    "year": 2025,
+    "course": "EEE 311",
+    "major": "CSP",
+    "questionText": "In the given system, \n x(n) = sin (n&pi;/2) for n = 0, 1, 2 and v(n) = {1↑, 0, 1} \n Compute the output of y(n) for n = 0, 1, 2",
+    "questionImage": "assets/questions/25sys.jpg",
+    "answerText": "1, 1, 0"
+  },
+  {
+    "id": "18-sigesys",
+    "year": 2018,
+    "course": "EEE 211",
+    "major": "CSP",
+    "questionText": "Determine the relation between x(t) and R(&tau;)",
+    "questionImage": "assets/questions/18tau.jpg",
+    "answerText": "Auto correlation function"
+  },
+
+  {
+    "id": "16-sigesys",
+    "year": 2016,
+    "course": "EEE 211",
+    "major": "CSP",
+    "questionText": "Find whether the system y(t) = x(t-2) + x(2-t) is linear, time-variant & causal or not.",
+    "answerText": "Time Invariant, Linear, Not Causal"
+  },
+
+   {
+    "id": "21-ssigesys",
+    "year": 2021,
+    "course": "EEE 211",
+    "major": "CSP",
+    "questionText": "Find the even and odd components of the signal \n x(t) = cos (t) + sin (t) + sin (t).cos (t)",
+    "answerText": "Even: cos(t); odd: sin(t)+sin(t)cos(t)"
+  },
+   {
+    "id": "21-sasigesys",
+    "year": 2021,
+    "course": "EEE 439",
+    "major": "CSP",
+    "questionText": "In digital communication, source coding is done for - (MCQ)",
+    "answerText": "Producing PCM data with different pattern, Producing digital data and removing redundant data, Error detection and correction of digital data."
+  },
+
+   {
+    "id": "21-ssaccigesys",
+    "year": 2021,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "Which analog modulation is suitable for communication of video signal? mcq",
+    "answerText": "VSB"
+  },
+
+   {
+    "id": "21-saaaigesys",
+    "year": 2021,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "In case if homodyne and heterodyne detections of a modulated signal, which is common? (MCQ)",
+    "answerText": "Local oscillator is required at the receiver"
   }
+  
 
 
 
