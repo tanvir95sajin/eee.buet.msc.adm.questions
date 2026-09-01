@@ -1106,7 +1106,109 @@
     "major": "Electronics",
     "questionText": "In a CE configuration, an emitter resistor is used for - MCQ",
     "answerText": "Stabilization"
+  },
+
+  {
+    "id": "21-commam",
+    "year": 2021,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "If the modulating signal is 5V peak square wave, and the unmodulated carrier signal is 10 V peak sinusoidal wave, find the power efficiency of the AM signal having following message signal and carrier signal.",
+    "answerText": "20%"
+  },
+
+  {
+    "id": "21-commam",
+    "year": 2021,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "If the modulating signal is 5V peak square wave, and the unmodulated carrier signal is 10 V peak sinusoidal wave, find the power efficiency of the AM signal having following message signal and carrier signal.",
+    "answerText": "20%"
+  },
+
+  {
+    "id": "19-comsmam",
+    "year": 2019,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "Find y(t) in the following figure.",
+    "questionImage": "assets/questions/19csp.jpg",
+    "answerText": "m(t) cos &omega;<sub>I</sub>t"
+  },
+
+  {
+    "id": "25-cosmmam",
+    "year": 2025,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "A low pass filter has the frequency response: H(&Omega) = 2, when |&Omega;|<= 4&pi; 0, when |&Omega;|>= 4&pi \n Find the output y(t) of the filter if input is: \n x(t) = 5 + 20/&pi; (sin &pi;t + 1/3 sin 3&pi;t + 1/5 sin 5&pi;t + ...)",
+    "answerText": "10 + 40/&pi; sin &pi;t + 40/3&pi; sin 3&pi;t"
+  },
+
+  {
+    "id": "22-fft",
+    "year": 2022,
+    "course": "EEE 211",
+    "major": "CSP",
+    "questionText": "Inverse Fourier transform of &delta;(&omega; - &omega<sub>0</sub>) is - (MCQ).",
+    "answerText": "exp(jw0t)/2&pi;"
+  },
+
+  {
+    "id": "24-fft",
+    "year": 2024,
+    "course": "EEE 211",
+    "major": "CSP",
+    "questionText": "Demonstrate that, the Fourier transform of a unit impulse train with a timer period of T, results in a function in the frequency domain with discrete spikes at intervals of (2&pi;/T)",
+    "answerText": "Book"
+  },
+
+    {
+    "id": "16-fft",
+    "year": 2016,
+    "course": "EEE 211",
+    "major": "CSP",
+    "questionText": "Draw the (i) DSB-SC, (ii) SSB+C, (iii) VSB of the signal if the carrier frequency is fc.",
+    "questionImage": "assets/questions/16dsb.jpg"
+  },
+
+    {
+    "id": "23-fft",
+    "year": 2023,
+    "course": "EEE 311",
+    "major": "CSP",
+    "questionText": "An input signal x(t) = 5 cos (8000&pi;t) is sampled with a sampling frequency of 5000 Hz, applied to a system S(n) = 2 + x(n) and passed through an ideal low pass filter, whose cut-off frequency response is 0.25&pi; rad/sec. What will be the output of the filter?",
+    "answerText": "2"
+  },
+
+    {
+    "id": "24-fftss",
+    "year": 2024,
+    "course": "EEE 311",
+    "major": "CSP",
+    "questionText": "Consider a continuous-time signal x(t) = cos (200&pi;t). The signal is sampled at a frequency fs = 4000 samples per second to obtain the discrete-time signal x(n). The resulting discrete time signal x(n) is then passed through an LTI system with a frequency response H(jw), where |H(e<sup>jw</sup>)| = 1 for all frequencies. Determine the expression for the output signal, y(n).",
+    "answerText": "cos (&pi;n/20)"
+  },
+  
+    {
+    "id": "17-fsftss",
+    "year": 2017,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "Find the spectrum of x(t).",
+    "questionImage": "assets/questions/17spec.jpg"
+  },
+
+  {
+    "id": "24-fsfstss",
+    "year": 2024,
+    "course": "EEE 309",
+    "major": "CSP",
+    "questionText": "Sketch the spectrum of y(t).",
+    "questionImage": "assets/questions/24spec.jpg"
   }
+
+
 
 
 
